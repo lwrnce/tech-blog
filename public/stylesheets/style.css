@@ -88,7 +88,6 @@ form label {
 .wrapper {
   width: 100%;
   min-height: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -99,6 +98,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 9rem;
   padding: 0 1%;
   background: var(--techgradient);
 }
@@ -115,6 +115,15 @@ header h1 {
 main {
   flex: 1;
   padding: 2% 4%;
+}
+
+ol {
+  list-style: none;
+}
+
+.post .card {
+  height: 10rem;
+  padding: 2rem;
 }
 
 .btn-no-style {
@@ -157,15 +166,6 @@ main {
 .edit-link {
   display: block;
   margin: -1.5% 0 2% 0;
-}
-
-.upvote-btn {
-  background-color: #197d0f;
-  transition: background-color .1s;
-}
-
-.upvote-btn:hover {
-  background-color: #1f9c13;
 }
 
 .comment-form {
