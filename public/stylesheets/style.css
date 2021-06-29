@@ -31,14 +31,17 @@ body, html {
 }
 
 a {
+  background-color: var(--techgradient);
   text-decoration: none;
-  color: #225ca3;
   font-weight: bold;
-  transition: color .1s;
 }
 
 a:hover {
-  color: #3486eb;
+  color: black;
+}
+
+header a {
+  color: whitesmoke;
 }
 
 button {
@@ -188,7 +191,11 @@ ol {
 }
 
 .new-post-form input {
-  width: 300px;
+  width: 100%;
+}
+
+.new-post-form .post-content {
+  height: 400px;
 }
 
 .edit-post-form {

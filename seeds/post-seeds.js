@@ -2,18 +2,18 @@ const { Post } = require('../models');
 
 const postdata = [
   {
-    title: 'Donec posuere metus vitae ipsum.',
-    content: 'Hello world',
+    title: 'Why MVC is so important',
+    content: 'MVC allows developers to maintain a true separation of concerns, devising their code between the Model layer for data, the View layer for design, and the Controller layer for application logic.',
     user_id: 10
   },
   {
-    title: 'Morbi non quam nec dui luctus rutrum.',
-    content: 'Hello world',
+    title: 'Authentication vs. Authorization.',
+    content: 'There is a difference between authentication and authorization. Authentication means confirming your own identity, whereas authorization means being allowed access to the system.',
     user_id: 8
   },
   {
-    title: 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
-    content: 'Hello world',
+    title: 'Object-Relational Mapping',
+    content: "I have really loved learning about ORMs. It's really simplified the way I create queries in SQL!",
     user_id: 1
   },
   {
